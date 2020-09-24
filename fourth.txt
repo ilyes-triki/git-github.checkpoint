@@ -1,0 +1,18 @@
+mkdir learn_git-again pour créer un fichier
+cd learn_git-again pour accéder au fichier créé
+touch third.txt pour la création d'un document text
+git init pour initialisé le fichier créé
+git add .
+git commit -m 'adding third.txt'
+git log pour vérifier
+touch fourth.txt pour la création d'un autre fichier text
+git add .
+git commit -m 'adding fourth.txt'
+git rm third.txt pour supprimer le fichier
+git add .
+git commit -m 'removing third.txt'
+git log pour vérifier
+git config user.name pour changer les configurations personnelles
+git config user.email pour changer les configurations personnelles
+git remote add origin pour ajouter le chemin du fichier
+git push pour ajouter le ficher a github
